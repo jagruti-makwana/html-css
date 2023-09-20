@@ -1,0 +1,335 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: 0px;	
+}
+header{
+	height: 150px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+
+}
+header .logo{
+	height: 150px;
+	width: 25%;
+}
+.logo{
+	align-items: center;
+}
+.logo h1{
+	text-align: center;
+	font-size: 30px;
+	margin-left: 5px;
+}
+.logo h5{
+	font-size: 15px;
+	text-align: center;
+	margin-left: 150px;
+}
+.logo i{
+	font-size: 40px;
+	margin-left: 150px;
+	margin-top: 30px;
+}
+header .nav{
+	height: 150px;
+	width: 60%;
+}	
+ .nav a{
+	align-items: center;
+	font-size: 15px;
+	color: black;
+	text-decoration: none;
+	padding: 5px;
+	text-align: center;
+	margin-left: 120px;
+	line-height: 200px;
+}
+.btn{
+	color: black;
+	background-color: orange;
+	font-size: 25px;
+	border-radius: 10px;
+}
+section .home{
+/*		border: 1px solid black;*/
+		width: 100%;
+		height: 700px;
+		display: flex;
+}
+.home1{
+	height: 700px;
+	width: 50%;
+/*	border: 1px solid black;*/
+}
+.home1 h1{
+	font-size: 40px;
+	margin-top: 100px;
+	margin-left: 130px;
+	 font-family: 'Amiko';font-size: 40px;
+	 text-shadow: 2px 3px 2px;
+}
+.home1 p{
+	font-size: 25px;
+	margin-left: 130px;
+	font-family: 'Actor';font-size: 22px;
+}
+.btn2{
+	color: white;
+	background-color: black;
+	font-size: 30px;
+	border-radius: 10px;
+	margin-left: 130px;
+}
+.home2{
+	height: 700px;
+	width: 50%;
+/*	border: 1px solid black;*/
+}
+.home2 img{
+	height: 500px;
+	width: 80%;
+	margin-left: 150px;
+	margin-top: 150px;
+}
+.icon{
+	display: flex;
+	margin-left: 100px;
+	font-size: 20px;
+	padding: 15px;
+}
+.icon i{
+	font-size: 25px;
+	padding: 15px;
+}
+.about{
+	height: 400px;
+	width: 100%;
+	background-color: orange;
+/*	border: 1px solid black;*/
+	display: flex;
+}
+.about1{
+	height: 490px;
+	width: 40%;
+/*	border: 1px solid black;*/
+	text-align: center;
+}
+.about1 h1{
+	font-size: 50px;
+	font-family: 'Actor';font-size: 50px;
+	margin-top: 120px;
+}
+.about2{
+	height: 490px;
+	width: 60%;
+/*	border: 1px solid black;*/
+}
+.about2 p{
+	font-size: 19px;
+	margin-top: 150px;
+	margin-left: 90px;
+}
+.offers{
+	height: auto;
+	width: 100%;
+/*	border: 1px solid black;*/
+}
+.title{
+	margin-left: 150px;
+	margin-top: 120px;
+}
+.title h1{
+	font-size: 30px;
+	font-family: 'Actor';font-size: 30px;
+}
+.title p{
+	font-size: 18px;
+}
+.box{
+	display: flex;
+	justify-content: space-between;
+/*	border: 1px solid black;*/
+	margin-left: 30px;
+
+}
+.box1{
+	height: 60vh;
+	width: 23%;
+/*	border: 1px solid black;*/
+	text-align: center;
+
+}
+.box1 img{
+	border: 1px solid black;
+	border-radius: 8px;
+	box-shadow: 4px 4px 4px lightblue;
+}
+.box2{
+	height: 60vh;
+	width: 23%;
+/*	border: 1px solid black;*/
+	text-align: center;
+}
+.box2 img{
+	border: 1px solid black;
+	border-radius: 8px;
+	box-shadow: 4px 4px 4px lightblue;
+}
+.box3{
+	height: 60vh;
+	width: 23%;
+/*	border: 1px solid black;*/
+	text-align: center;
+}
+.box3 img{
+	border: 1px solid black;
+	border-radius: 8px;
+	box-shadow: 4px 4px 4px lightblue;
+}
+.box4{
+	height: 60vh;
+	width: 23%;
+/*	border: 1px solid black;*/
+	text-align: center;
+}
+.box4 img{
+	border: 1px solid black;
+	border-radius: 8px;
+	box-shadow: 4px 4px 4px lightblue;
+}
+.creativety{
+	height: auto;
+	width: 100%;
+/*	border: 1px solid black;*/
+	display: flex;
+}
+.creativety1{
+	width: 40%;
+	margin-top: 70px;
+	margin-left: 150px;
+}
+.creativety2{
+	width: 60%;
+/*	border: 1px solid black;*/
+	margin-top: 70px;
+	margin-left: 440px;
+}
+.creativety2 h1{
+	font-size: 50px;
+	font-family: 'Actor';font-size: 50px;
+/*	text-align: center;*/
+	margin-top: 150px;
+}
+.creativety2 p{
+	font-size: 20px;
+}
+.btn3{
+	font-size: 30px;
+	background-color: black;
+	color: white;
+}
+.client{
+	height: 80vh;
+	width: 100%;
+/*	border: 1px solid black;*/
+
+}
+.client-say h1{
+	font-size: 35px;
+	font-family: 'Actor';font-size: 35px;
+	margin-left: 110px;
+}
+.img123{
+	display: flex;
+	margin-left: 190px;
+	justify-content: space-evenly;
+}
+.img1{
+	height: 50vh;
+	width: 20%;
+	border: 1px solid black;
+	border-radius: 10px;
+	box-shadow: 4px 4px 4px 4px black;
+}
+.a{
+	width: 100%;
+	height: 50px;
+	border: 1px solid black;
+	border-radius: 10px;
+	background-color: orange;
+	font-size: 30px;
+
+}
+.img1 p{
+	font-size: 25px;
+	margin-top: 40px;
+	text-align: center;
+}
+.img1 h4{
+	margin-left: 200px;
+	margin-top: 120px;
+}
+.end{
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+.end h1{
+	font-size: 50px;
+	font-family: 'Actor';font-size: 50px;
+}
+.btn4{
+	color: white;
+	background-color: black;
+	font-size: 25px;
+	border-radius: 5px;
+	margin-left: 50px;
+}
+.contact{
+	height: 30vh;
+	width: 100%;
+	background-color: orange;
+	
+}
+.footer{
+	display: flex;
+	margin-left: 200px;
+	
+}
+.row1{
+	padding: 15px;
+}
+.contact1{
+	margin-left: 100px;
+	margin-top: 100px;
+}
+.row2{
+	padding: 15px;
+}
+.row3{
+	padding: 15px;
+}
+.btn5{
+	background-color: black;
+	color: white;
+}
+.contact1 h4{
+	font-size: 25px;
+}
+.contact1 h5{
+	font-size: 20px;
+}
+.last-line{
+	height: 3vh;
+	width: 100%;
+	color: white;
+	background-color: black;
+	font-size: 20px;
+	text-align: center;
+
+}
+
+
+
